@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: url(index1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height:250%;
+}
+.regform
+{
+    width: 326px;
+    background: transparent;
+    border: 1px solid rgb(233, 133, 206);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter:blur(18px);
+    
+    
+}
+h1{
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    color:black,white;
+}
+.regform .input-box{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: white;
+}
+.input-box input{
+    background: transparent;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: left;
+    color: white;
+    outline: none;
+    border: 2px solid #ffffff90;
+}
+.input-box i{
+    color:white;
+}
+.input-box input::placeholder{
+    color: #ffffffaf;
+    text-align: left;
+}
+.radio{
+    
+    width:84%;
+    margin-left: 12px;
+    font-size: 85%;
+    margin: space-between;
+}
+button{
+    width:178px;
+    height: 30px;
+    background-size: 100%;
+    background: white;
+    border-radius: 7px;
+    font-size: 125%;
+    margin-left:16px ;
+    font-family:bold;
+    font-stretch:expanded;
+    border: none;
+    background:white
+}
+.checkbox {
+    display: flex;
+   justify-content: center;
+    font-size: 10px;
+}
